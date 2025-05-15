@@ -1,12 +1,36 @@
-# React + Vite
+# React Course [Feb Cohort]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### How to get Started on any react project 😊
 
-Currently, two official plugins are available:
+1. create a folder on any directory on your computer for example desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Note:** This optional if you can use the terminal. just change the directory to the desktop dir any dir you want to store your files and continue with the next steps (3, 4, 6, 7).
 
-## Expanding the ESLint configuration
+2. create and open the folder with vscode
+3. then use the vscode terminal and run this 👇👇
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```
+   npm create vite@latest
+   ```
+
+4. Enter the necessary information asked on the terminal.
+   i.e: - type name of your project (you can leave it as the same for your package name). - framework -> choose react - from with -> choose Javascript vanilla - press enter once done.
+
+5. on the terminal change the directory to the name of the application or project you entered while at step 4.
+   ```
+   cd project-name
+   ```
+6. then install the package.
+
+   ```
+   npm install
+
+   \\or
+
+   npm i
+   ```
+
+7. once install your run your dev server and that is it.
+   ```
+    npm run dev
+   ```
