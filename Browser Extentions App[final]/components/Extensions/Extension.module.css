@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  gap: 0.5rem;
+}
+.extn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: var(--Neutral-0);
+  padding: 1.2rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(218, 218, 218);
+}
+.extn_info {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.extn_func {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rmbtn {
+  border: 1px solid var(--Neutral-300);
+  padding: 0.3rem 0.6rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.toggle{
+    height: 24px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    background-color: var(--Red-700);
+    border-radius: 1rem;
+    cursor: pointer;
+& div{
+    width: 18px;
+    height: 18px;
+    background-color: var(--Neutral-0);
+    border-radius: 5rem;
+}
+}

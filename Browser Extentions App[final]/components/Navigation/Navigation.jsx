@@ -1,5 +1,5 @@
-import Logo from "../../assets/images/logo.svg";
-import DarkModeIcon from "../../assets/images/icon-moon.svg";
+import Logo from "/assets/images/logo.svg";
+import DarkModeIcon from "/assets/images/icon-moon.svg";
 import STYLES from "./Navigation.module.css";
 import NavLinks from "./NavLinks";
 const Navigation = () => {

@@ -1,3 +1,4 @@
+import Extension from "./components/Extensions/Extension";
 import Navigation from "./components/Navigation/Navigation";
 import STYLES from "./main.module.css";
 
@@ -6,6 +7,7 @@ const BrowserExentionsApp = () => {
   return (
     <main className={main}>
       <Navigation />
+      <Extension/>
     </main>
   );
 };

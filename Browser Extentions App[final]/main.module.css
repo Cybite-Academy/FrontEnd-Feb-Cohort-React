@@ -1,7 +1,10 @@
 .main {
-  width: 95%;
+  font-family: "Noto Sans";
+  font-weight: normal;
+  width: 90%;
   margin: 0 auto;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
 }

@@ -9,6 +9,7 @@
 
   & h1 {
     text-align: center;
+    font-size: 32px;
   }
 }
 
@@ -24,6 +25,7 @@
     background-color: var(--Neutral-100);
     padding: 0.8rem;
     border-radius: 0.8rem;
+    cursor: pointer;
   }
 }
 
@@ -40,12 +42,12 @@
 
 .link_list div {
   background-color: var(--Neutral-0);
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   border-radius: 1.5rem;
   border: 1px solid var(--Neutral-300);
   cursor: pointer;
 }
-.link_list .active{
-    background-color: var(--Red-700);
-    color: var(--Neutral-0);
+.link_list .active {
+  background-color: var(--Red-700);
+  color: var(--Neutral-0);
 }
