@@ -5,11 +5,11 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [
     react(),
-    svgr({
-      exportAsDefault: true,
-      svgrOptions: {
-        icon: true,
-      },
-    }),
+    // svgr({
+    //   exportAsDefault: true,
+    //   svgrOptions: {
+    //     icon: true,
+    //   },
+    // }),
   ],
 });

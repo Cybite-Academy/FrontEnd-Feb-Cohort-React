@@ -1,11 +1,12 @@
-import BrowserExentionsApp from "../Browser Extentions App[final]/BrowserExentionsApp";
-import SocialLinkApp from "../social links [final]/SocialLinkApp";
+// import SocialLinkApp from "../App/Social Links [final]/SocialLinkApp";
 import "./App.css";
+import TimeTrackingApp from "../App/Time Tracking Dashboard/TimeTrackingApp";
 
 function App() {
   return (
     <>
-      <BrowserExentionsApp/>
+      <TimeTrackingApp />
+      {/* <SocialLinkApp /> */}
     </>
   );
 }

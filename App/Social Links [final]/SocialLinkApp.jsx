@@ -1,3 +1,4 @@
+import "./SocialLinkApp.css";
 const SocialLinkApp = () => {
   return (
     <main>
