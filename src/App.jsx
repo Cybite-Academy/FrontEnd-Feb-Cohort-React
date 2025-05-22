@@ -1,12 +1,14 @@
-// import SocialLinkApp from "../App/Social Links [final]/SocialLinkApp";
 import "./App.css";
-import TimeTrackingApp from "../App/Time Tracking Dashboard/TimeTrackingApp";
+import Card from "./Card";
 
 function App() {
   return (
     <>
-      <TimeTrackingApp />
-      {/* <SocialLinkApp /> */}
+      <main>
+        <Card />
+        <Card img={'card2'}/>
+        <Card img={'card3'}/>
+      </main>
     </>
   );
 }
