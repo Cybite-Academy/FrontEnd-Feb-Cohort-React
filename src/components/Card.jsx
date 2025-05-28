@@ -1,7 +1,7 @@
 const Card = (props) => {
-    console.log(props);
+
   return (
-    <div className={`card card1 + ${props.img}`}>
+    <div className={`card ${props.bgImg}`}>
       <div className="sensor tl"></div>
       <div className="sensor tm"></div>
       <div className="sensor tr"></div>
@@ -10,6 +10,7 @@ const Card = (props) => {
       <div className="sensor br"></div>
     </div>
   );
+
 };
 
 export default Card;

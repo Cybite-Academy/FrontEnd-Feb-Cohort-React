@@ -1,14 +1,12 @@
 import "./App.css";
-import Card from "./Card";
+import Event from "./components/events/Event";
+
+
 
 function App() {
   return (
     <>
-      <main>
-        <Card />
-        <Card img={'card2'}/>
-        <Card img={'card3'}/>
-      </main>
+      <Event/>
     </>
   );
 }
